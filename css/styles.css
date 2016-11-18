@@ -10,6 +10,7 @@
 
 
 body {
+  table-layout: fixed;
   font-family: helvetica, sans-serif;
   font-size: 16px;
   margin: 0;
@@ -20,7 +21,7 @@ h1 {
   font-weight: 600;
   margin: 0;
   text-align: left;
-  padding-top: 12px;
+  padding-top: 10px;
   padding-bottom: 12px;
 }
 caption {
@@ -73,10 +74,10 @@ img {
   font-weight: 600;
 }
 .small {
-  font-size: 14px;
+  font-size: 13.5px;
 }
 .daily {
-  padding-top: 3px;
+  padding-top: 4px;
   border-top: 6px solid black;
 }
 
@@ -91,4 +92,7 @@ img {
 .below {
   border-bottom: 1px;
   padding: 0px;
+}
+.indent {
+  border-top: 0px;
 }
